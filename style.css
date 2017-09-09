@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'big_johnregular';
+    src: url('big_john-webfont.woff2') format('woff2'),
+         url('big_john-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html { 
+background-color: #08599f;
+background: url(img/imgbgaccueil.png) no-repeat center fixed; 
+-webkit-background-size: cover;
+background-size: cover;
+}
+
+body {
+font-family: 'Lato', sans-serif;
+box-sizing:border-box;
+}
+
+#logo40ma {
+float: left;
+padding: 10;
+}
+
+#reseaux {
+float: right;
+padding: 10;
+}
+
+#reseaux li {
+display: inline;
+padding: 2px;
+}
+
+#contenu {
+clear: both;
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+max-width: 600px;
+width: 100%
+text-align: center;
+}
+
+#illuah {
+text-align: center;
+}
+
+#bloctexte {
+max-width: 580px;
+font-family: 'Lato';
+float: right;
+background-color: #ffffff;
+padding-left:15px;
+padding-right:15px;
+padding-bottom:15px;
+text-align: justify;
+border-style: solid;
+border-width: 3px;
+border-color: #000000;
+}
+
+#bloctexte h3{
+font-family: 'big_johnregular';
+text-align: center;
+color: 08599f;
+}
+
+#partage {
+margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+width: 350px;
+}
+
+#tw a {
+float: right;
+color: #5acaee;
+text-decoration: none;
+border-style: solid;
+border-width: 1px;
+border-color : #5acaee;
+border-radius: 25px;
+padding: 08px;
+}
+
+#tw a:hover {
+color: #49a5c2;
+}
+
+#fb a {
+float: left;
+color: #4d70a8;
+text-decoration: none;
+border-style: solid;
+border-width: 1px;
+border-color : #4d70a8;
+border-radius: 25px;
+padding: 08px;
+}
+
+#fb a:hover {
+color: #2a3c59;
+}
+
+#mentions {
+clear: both;
+text-align: center;
+padding-top: 20px;
+}
+
+#mentions a{
+font-size: 14px;
+color: #ffffff;
+}
+
+#copyright {
+text-align: center;
+padding-top: 10px;
+font-size: 12px;
+color: #ffffff;
+}
+
+.bold {
+font-weight: bold;
+}
+
+body h3{
+font-family: 'big_johnregular';
+text-align: center;
+color: 08599f;
+}
+
+h2{
+text-transform: uppercase;
+text-align: center;
+color: 08599f;
+}
+
+
+#bloctexte2 {
+font-family: 'Lato';
+background-color: #ffffff;
+padding-left:15px;
+padding-right:15px;
+padding-bottom:15px;
+text-align: justify;
+border-style: solid;
+border-width: 3px;
+border-color: #000000;
+}
+
+#bloctexte2 h3{
+font-family: 'big_johnregular';
+text-align: center;
+color: 08599f;
+}
+
+#logo40mamentions {
+text-align: center;
+padding: 10;
+}
+
